@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F609CC5E1AE0A2470024C4D2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F609CC5D1AE0A2470024C4D2 /* AppDelegate.swift */; };
+		F609CC601AE0A2470024C4D2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F609CC5F1AE0A2470024C4D2 /* ViewController.swift */; };
+		F609CC631AE0A2470024C4D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F609CC611AE0A2470024C4D2 /* Main.storyboard */; };
+		F609CC651AE0A2470024C4D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F609CC641AE0A2470024C4D2 /* Images.xcassets */; };
+		F609CC681AE0A2470024C4D2 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F609CC661AE0A2470024C4D2 /* LaunchScreen.xib */; };
+		F609CC741AE0A2470024C4D2 /* CALL911Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F609CC731AE0A2470024C4D2 /* CALL911Tests.swift */; };
+		F609CC861AE0A2710024C4D2 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F609CC851AE0A2710024C4D2 /* InterfaceController.swift */; };
+		F609CC881AE0A2710024C4D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F609CC871AE0A2710024C4D2 /* Images.xcassets */; };
+		F609CC8C1AE0A2710024C4D2 /* CALL911 WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = F609CC8B1AE0A2710024C4D2 /* CALL911 WatchKit App.app */; };
+		F609CC941AE0A2710024C4D2 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F609CC921AE0A2710024C4D2 /* Interface.storyboard */; };
+		F609CC961AE0A2710024C4D2 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F609CC951AE0A2710024C4D2 /* Images.xcassets */; };
+		F609CC991AE0A2710024C4D2 /* CALL911 WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F609CC811AE0A2710024C4D2 /* CALL911 WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F609CC6E1AE0A2470024C4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F609CC501AE0A2470024C4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F609CC571AE0A2470024C4D2;
+			remoteInfo = CALL911;
+		};
+		F609CC8D1AE0A2710024C4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F609CC501AE0A2470024C4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F609CC8A1AE0A2710024C4D2;
+			remoteInfo = "CALL911 WatchKit App";
+		};
+		F609CC971AE0A2710024C4D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F609CC501AE0A2470024C4D2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F609CC801AE0A2710024C4D2;
+			remoteInfo = "CALL911 WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F609CCA01AE0A2710024C4D2 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F609CC991AE0A2710024C4D2 /* CALL911 WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F609CC581AE0A2470024C4D2 /* CALL911.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CALL911.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F609CC5C1AE0A2470024C4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F609CC5D1AE0A2470024C4D2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F609CC5F1AE0A2470024C4D2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F609CC621AE0A2470024C4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F609CC641AE0A2470024C4D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F609CC671AE0A2470024C4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		F609CC6D1AE0A2470024C4D2 /* CALL911Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CALL911Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F609CC721AE0A2470024C4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F609CC731AE0A2470024C4D2 /* CALL911Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALL911Tests.swift; sourceTree = "<group>"; };
+		F609CC811AE0A2710024C4D2 /* CALL911 WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "CALL911 WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F609CC841AE0A2710024C4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F609CC851AE0A2710024C4D2 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		F609CC871AE0A2710024C4D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		F609CC8B1AE0A2710024C4D2 /* CALL911 WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CALL911 WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F609CC911AE0A2710024C4D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F609CC931AE0A2710024C4D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		F609CC951AE0A2710024C4D2 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F609CC551AE0A2470024C4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F609CC6A1AE0A2470024C4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F609CC7E1AE0A2710024C4D2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F609CC4F1AE0A2470024C4D2 = {
+			isa = PBXGroup;
+			children = (
+				F609CC5A1AE0A2470024C4D2 /* CALL911 */,
+				F609CC701AE0A2470024C4D2 /* CALL911Tests */,
+				F609CC821AE0A2710024C4D2 /* CALL911 WatchKit Extension */,
+				F609CC8F1AE0A2710024C4D2 /* CALL911 WatchKit App */,
+				F609CC591AE0A2470024C4D2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F609CC591AE0A2470024C4D2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F609CC581AE0A2470024C4D2 /* CALL911.app */,
+				F609CC6D1AE0A2470024C4D2 /* CALL911Tests.xctest */,
+				F609CC811AE0A2710024C4D2 /* CALL911 WatchKit Extension.appex */,
+				F609CC8B1AE0A2710024C4D2 /* CALL911 WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F609CC5A1AE0A2470024C4D2 /* CALL911 */ = {
+			isa = PBXGroup;
+			children = (
+				F609CC5D1AE0A2470024C4D2 /* AppDelegate.swift */,
+				F609CC5F1AE0A2470024C4D2 /* ViewController.swift */,
+				F609CC611AE0A2470024C4D2 /* Main.storyboard */,
+				F609CC641AE0A2470024C4D2 /* Images.xcassets */,
+				F609CC661AE0A2470024C4D2 /* LaunchScreen.xib */,
+				F609CC5B1AE0A2470024C4D2 /* Supporting Files */,
+			);
+			path = CALL911;
+			sourceTree = "<group>";
+		};
+		F609CC5B1AE0A2470024C4D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F609CC5C1AE0A2470024C4D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F609CC701AE0A2470024C4D2 /* CALL911Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F609CC731AE0A2470024C4D2 /* CALL911Tests.swift */,
+				F609CC711AE0A2470024C4D2 /* Supporting Files */,
+			);
+			path = CALL911Tests;
+			sourceTree = "<group>";
+		};
+		F609CC711AE0A2470024C4D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F609CC721AE0A2470024C4D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F609CC821AE0A2710024C4D2 /* CALL911 WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F609CC851AE0A2710024C4D2 /* InterfaceController.swift */,
+				F609CC871AE0A2710024C4D2 /* Images.xcassets */,
+				F609CC831AE0A2710024C4D2 /* Supporting Files */,
+			);
+			path = "CALL911 WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F609CC831AE0A2710024C4D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F609CC841AE0A2710024C4D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F609CC8F1AE0A2710024C4D2 /* CALL911 WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				F609CC921AE0A2710024C4D2 /* Interface.storyboard */,
+				F609CC951AE0A2710024C4D2 /* Images.xcassets */,
+				F609CC901AE0A2710024C4D2 /* Supporting Files */,
+			);
+			path = "CALL911 WatchKit App";
+			sourceTree = "<group>";
+		};
+		F609CC901AE0A2710024C4D2 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F609CC911AE0A2710024C4D2 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F609CC571AE0A2470024C4D2 /* CALL911 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F609CC771AE0A2470024C4D2 /* Build configuration list for PBXNativeTarget "CALL911" */;
+			buildPhases = (
+				F609CC541AE0A2470024C4D2 /* Sources */,
+				F609CC551AE0A2470024C4D2 /* Frameworks */,
+				F609CC561AE0A2470024C4D2 /* Resources */,
+				F609CCA01AE0A2710024C4D2 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F609CC981AE0A2710024C4D2 /* PBXTargetDependency */,
+			);
+			name = CALL911;
+			productName = CALL911;
+			productReference = F609CC581AE0A2470024C4D2 /* CALL911.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F609CC6C1AE0A2470024C4D2 /* CALL911Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F609CC7A1AE0A2470024C4D2 /* Build configuration list for PBXNativeTarget "CALL911Tests" */;
+			buildPhases = (
+				F609CC691AE0A2470024C4D2 /* Sources */,
+				F609CC6A1AE0A2470024C4D2 /* Frameworks */,
+				F609CC6B1AE0A2470024C4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F609CC6F1AE0A2470024C4D2 /* PBXTargetDependency */,
+			);
+			name = CALL911Tests;
+			productName = CALL911Tests;
+			productReference = F609CC6D1AE0A2470024C4D2 /* CALL911Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F609CC801AE0A2710024C4D2 /* CALL911 WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F609CC9D1AE0A2710024C4D2 /* Build configuration list for PBXNativeTarget "CALL911 WatchKit Extension" */;
+			buildPhases = (
+				F609CC7D1AE0A2710024C4D2 /* Sources */,
+				F609CC7E1AE0A2710024C4D2 /* Frameworks */,
+				F609CC7F1AE0A2710024C4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F609CC8E1AE0A2710024C4D2 /* PBXTargetDependency */,
+			);
+			name = "CALL911 WatchKit Extension";
+			productName = "CALL911 WatchKit Extension";
+			productReference = F609CC811AE0A2710024C4D2 /* CALL911 WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		F609CC8A1AE0A2710024C4D2 /* CALL911 WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F609CC9A1AE0A2710024C4D2 /* Build configuration list for PBXNativeTarget "CALL911 WatchKit App" */;
+			buildPhases = (
+				F609CC891AE0A2710024C4D2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CALL911 WatchKit App";
+			productName = "CALL911 WatchKit App";
+			productReference = F609CC8B1AE0A2710024C4D2 /* CALL911 WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F609CC501AE0A2470024C4D2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Matt Cowger";
+				TargetAttributes = {
+					F609CC571AE0A2470024C4D2 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F609CC6C1AE0A2470024C4D2 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = F609CC571AE0A2470024C4D2;
+					};
+					F609CC801AE0A2710024C4D2 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					F609CC8A1AE0A2710024C4D2 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+				};
+			};
+			buildConfigurationList = F609CC531AE0A2470024C4D2 /* Build configuration list for PBXProject "CALL911" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F609CC4F1AE0A2470024C4D2;
+			productRefGroup = F609CC591AE0A2470024C4D2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F609CC571AE0A2470024C4D2 /* CALL911 */,
+				F609CC6C1AE0A2470024C4D2 /* CALL911Tests */,
+				F609CC801AE0A2710024C4D2 /* CALL911 WatchKit Extension */,
+				F609CC8A1AE0A2710024C4D2 /* CALL911 WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F609CC561AE0A2470024C4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609CC631AE0A2470024C4D2 /* Main.storyboard in Resources */,
+				F609CC681AE0A2470024C4D2 /* LaunchScreen.xib in Resources */,
+				F609CC651AE0A2470024C4D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F609CC6B1AE0A2470024C4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F609CC7F1AE0A2710024C4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609CC8C1AE0A2710024C4D2 /* CALL911 WatchKit App.app in Resources */,
+				F609CC881AE0A2710024C4D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F609CC891AE0A2710024C4D2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609CC941AE0A2710024C4D2 /* Interface.storyboard in Resources */,
+				F609CC961AE0A2710024C4D2 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F609CC541AE0A2470024C4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609CC601AE0A2470024C4D2 /* ViewController.swift in Sources */,
+				F609CC5E1AE0A2470024C4D2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F609CC691AE0A2470024C4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609CC741AE0A2470024C4D2 /* CALL911Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F609CC7D1AE0A2710024C4D2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F609CC861AE0A2710024C4D2 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F609CC6F1AE0A2470024C4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F609CC571AE0A2470024C4D2 /* CALL911 */;
+			targetProxy = F609CC6E1AE0A2470024C4D2 /* PBXContainerItemProxy */;
+		};
+		F609CC8E1AE0A2710024C4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F609CC8A1AE0A2710024C4D2 /* CALL911 WatchKit App */;
+			targetProxy = F609CC8D1AE0A2710024C4D2 /* PBXContainerItemProxy */;
+		};
+		F609CC981AE0A2710024C4D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F609CC801AE0A2710024C4D2 /* CALL911 WatchKit Extension */;
+			targetProxy = F609CC971AE0A2710024C4D2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F609CC611AE0A2470024C4D2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F609CC621AE0A2470024C4D2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F609CC661AE0A2470024C4D2 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F609CC671AE0A2470024C4D2 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		F609CC921AE0A2710024C4D2 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F609CC931AE0A2710024C4D2 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F609CC751AE0A2470024C4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F609CC761AE0A2470024C4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F609CC781AE0A2470024C4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CALL911/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		F609CC791AE0A2470024C4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = CALL911/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		F609CC7B1AE0A2470024C4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CALL911Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALL911.app/CALL911";
+			};
+			name = Debug;
+		};
+		F609CC7C1AE0A2470024C4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CALL911Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CALL911.app/CALL911";
+			};
+			name = Release;
+		};
+		F609CC9B1AE0A2710024C4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = CALL911_WatchKit_Extension;
+				INFOPLIST_FILE = "CALL911 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		F609CC9C1AE0A2710024C4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = CALL911_WatchKit_Extension;
+				INFOPLIST_FILE = "CALL911 WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		F609CC9E1AE0A2710024C4D2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "CALL911 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F609CC9F1AE0A2710024C4D2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "CALL911 WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F609CC531AE0A2470024C4D2 /* Build configuration list for PBXProject "CALL911" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F609CC751AE0A2470024C4D2 /* Debug */,
+				F609CC761AE0A2470024C4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F609CC771AE0A2470024C4D2 /* Build configuration list for PBXNativeTarget "CALL911" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F609CC781AE0A2470024C4D2 /* Debug */,
+				F609CC791AE0A2470024C4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F609CC7A1AE0A2470024C4D2 /* Build configuration list for PBXNativeTarget "CALL911Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F609CC7B1AE0A2470024C4D2 /* Debug */,
+				F609CC7C1AE0A2470024C4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F609CC9A1AE0A2710024C4D2 /* Build configuration list for PBXNativeTarget "CALL911 WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F609CC9B1AE0A2710024C4D2 /* Debug */,
+				F609CC9C1AE0A2710024C4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F609CC9D1AE0A2710024C4D2 /* Build configuration list for PBXNativeTarget "CALL911 WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F609CC9E1AE0A2710024C4D2 /* Debug */,
+				F609CC9F1AE0A2710024C4D2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F609CC501AE0A2470024C4D2 /* Project object */;
+}
